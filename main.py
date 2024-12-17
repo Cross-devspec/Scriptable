@@ -5,8 +5,7 @@ from time import sleep
 input_dir = input("List scripts? [Y/n]")
 
 if input_dir == "Y" or "y":
-  chdir("scripts")
-  os.listdir()
+  os.chdir("scripts")
 
 if input_dir == "n" or "N":
   exit()
